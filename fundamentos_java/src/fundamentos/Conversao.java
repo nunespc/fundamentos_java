@@ -17,9 +17,9 @@ public class Conversao {
 		double salario2 = Double.parseDouble(valor2);
 		double salario3 = Double.parseDouble(valor3);
 		
-		double salario = salario1 + salario2 + salario3 / 3;
+		double salario = (salario1 + salario2 + salario3) / 3;
 		
-		System.out.printf("%.2f",salario);
+		System.out.printf("media dos salarios é" + "%.2f",salario);
 		
 		entrada.close();
 		
